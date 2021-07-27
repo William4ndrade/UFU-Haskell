@@ -6,11 +6,9 @@ media :: Float -> Float -> Float
 media a b = ( a + b) / 2.0
 
 
---inc (quadrado 5) R=26
---quadrado (inc 5) R=36
---media (inc 3)(inc 5) R= Erro, Espera float e é passado int
-
-
+--inc (quadrado 5) R=26, quadrado de 5 = 25 / +1 do inc = 26;
+--quadrado (inc 5) R=36, inc de 5 = 6 / quadrado de 6 = 36;
+--media (inc 3)(inc 5) R= Erro, Espera float e é passado int;
 
 
 -- Quarta potencia
