@@ -1,6 +1,11 @@
+-- William Andrade Da Silva
+
+
+
 -- 1
 terceiro :: [Integer] -> Integer  
 terceiro x = head (tail (tail x))
+
 -----------------------------------------
 
 -- 2 - 
@@ -25,3 +30,4 @@ nultimo x = reverse (tail (reverse x))
 
 ini :: String -> String -> (Char, Char)
 ini x y = (head x, head y)
+
