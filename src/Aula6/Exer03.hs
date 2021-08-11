@@ -47,7 +47,7 @@ par x
 
 impar :: Int -> Bool 
 impar x 
-    | par x == False = True 
+    | not (par x) = True 
     | otherwise = False 
 
 
