@@ -17,7 +17,7 @@ saudacao nome = saudacaoInfeliz ++ nome
 
 -- 02 - retorna a quantidade de raizes posiveis 
 
-raizes :: Int -> Int -> Int -> Int 
+raizes :: Float  -> Float  -> Float  -> Int 
 raizes a b c 
     |   x > y = 2
     | x == y = 1
