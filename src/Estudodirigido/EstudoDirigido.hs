@@ -37,13 +37,13 @@ nomeDoDia x = if x <= 6 then last (take (x+1) days) else error "Apenas valores e
 
 
 diaDaSemana :: Data -> String 
-diaDaSemana (dia,mes,ano) = projetinhofelas 0 0
+diaDaSemana (dia,mes,ano) = getdayname 0 0
         where
             ndias = numDeDias (dia,mes,ano)
-            projetinhofelas :: Int -> Int -> String 
-            projetinhofelas  x y
+            getdayname :: Int -> Int -> String 
+            getdayname  x y
                     | x == ndias = nomeDoDia y
-                    | otherwise = projetinhofelas (x+1) (if y+1 > 6 then 0 else y+1)
+                    | otherwise = getdayname (x+1) (if y+1 > 6 then 0 else y+1)
            
            
             
