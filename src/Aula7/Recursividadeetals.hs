@@ -7,3 +7,4 @@ fatorial n
 somar n 
     | n == 1 = 1
     | otherwise =  somar (n-1) + n
+
