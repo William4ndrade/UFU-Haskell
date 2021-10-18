@@ -1,7 +1,13 @@
+-- William Andrade Da Silva
+-- 23/08
+
+import Data.Scientific (fromFloatDigits)
+import GHC.Float (int2Float)
 type Dia = Int
 type Mes = Int
 type Ano = Int
 type Data = (Dia,Mes,Ano)
+
 
 
 
@@ -47,6 +53,5 @@ diaDaSemana (dia,mes,ano) = getdayname 0 0
            
            
             
-
+-- Legal essa parte de poder colocar function dentro do where n sabia 
  
-           
