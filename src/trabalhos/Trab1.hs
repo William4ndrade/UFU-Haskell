@@ -67,7 +67,3 @@ countLivrosEmprestadosRecursivo _ [] = 0
 countLivrosEmprestadosRecursivo pessoa db 
                                 | equalsIgnoreCase pessoa (snd (head db)) = 1 + countLivrosEmprestadosRecursivo pessoa (tail db)
                                 | otherwise = countLivrosEmprestadosRecursivo pessoa (tail db)
-
-
-
-
